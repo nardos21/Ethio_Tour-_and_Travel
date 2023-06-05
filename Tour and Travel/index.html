@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nardos Tour and Travel</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo" style="color:whitesmoke;">ETHIO</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Tours</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">Countrys</a></li>
+            <li><a href="#">About</a></li>
+            <li><a  class="ctn" href="#">Contact</a></li>
+        </ul>
+        <img src="./images/menu-btn.png" alt="menu-btn" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+               <h2>Explore a Wonderfull Ethiopia</h2> 
+                <div class="line"></div>
+                <h1> A Wonderfull Gift</h1>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+    </header>
+    <Section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+                <div class="row">
+                    <div class="col">
+                        <img src="./images/image7.jpeg" width="550px" height="400px"  alt="Abay river">
+                            <h4>Go to Gambella</h4>
+                            <p>Although Gambella is a very small state in terms of its population size, its culture is not unique since it various from tribe to tribe
+                                Although Gambella is a very small state in terms of its population size, its culture is not unique since it various from tribe to tribe..</p>
+                            <a href="#" class="ctn">Learn More</a>
+                    </div>
+                    <div class="col">
+                        <img src="./images/image8.jpg" width="550px" height="400px" alt="Abay river">
+                            <h4>Erta Ale</h4>
+                            <p>Erta Ale is a continuously active basaltic shield volcano in the Afar Region of 
+                                northeastern Ethiopia, which is itself part of the wider Afar Triangle. Erta Ale is located in the Danakil Depression, an area below sea level between the last two countries, 
+                                and is the most active volcano in Ethiopia</p>
+                            <a href="#" class="ctn">Learn More</a>
+                    </div>
+                </div>  
+    </Section>
+
+<section class="explore">
+   <div class="explore-content">
+        <h1>Explore The Ethiopia</h1>
+        <div class="line"></div>
+        <p>Ethiopia is an ancient country whose unique cultural heritage, rich history and 
+            remarkable biodiversity are reflected in a tally of nine 
+            UNESCO World Heritage Sites – more than any other country in Africa.</p>
+            <a href="#" class="ctn">Learn More</a>
+   </div>
+</section>
+ 
+<section class="tours">
+    <div class="row">
+        <div class="col content-col">
+            <h1>Upcoming Events and Destination</h1>
+            <div class="line"></div>
+            <p>Ethiopia is an ancient country whose unique cultural heritage, rich history and 
+                remarkable biodiversity are reflected in a tally of nine 
+                UNESCO World Heritage Sites – more than any other country in Africa.</p>
+                <a href="#" class="ctn">Learn More</a>
+        </div>
+        <div class="col image-col">
+            <div class="image-gallery">
+                <img src="./images/image3.jpg" alt="" width="300px" height="251px">
+                <img src="./images/image4.jpg" alt="" width="300px" height="251px">
+                <img src="./images/image9.jpg" alt="" width="300px" height="251px">
+                <img src="./images/image3.jpg" alt="" width="300px" height="251px">
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="footer">
+    <p>Ethio Tour and Travel  Developed By Nardos Hailemariam Addis Ababa Ethiopia</p>
+    <p>&copy; 2023 Addis Ababa Ethiopia</p>
+</section>
+
+    <script>
+        const menuBtn=document.querySelector('.menu-btn')
+        const navLinks=document.querySelector('.nav-links')
+        menuBtn.addEventListener('click',()=>{
+            navLinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
